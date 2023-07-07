@@ -1,0 +1,58 @@
+:root {
+    --logo-accent-color: rgba(33, 150, 243, 1);
+    --logo-black-color: rgba(0, 0, 0, 1);
+    --text-color: rgba(117, 117, 117, 1);
+    --caption-color: rgba(33, 33, 33, 1);
+    --white-color: rgba(255, 255, 255, 1);
+
+}
+body {
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+/* header */
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo-black-color);
+}
+.logo-accent {
+    color: var(--logo-accent-color);
+}
+
+.nav-link {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0,02em;
+    color: var(--caption-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--logo-accent-color);
+}
+
+.contacts {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0,02em;
+    color: var(--text-color);
+}
+.contacts:hover,
+.contacts:focus {
+    color: var(--logo-accent-color);
+}
