@@ -128,7 +128,7 @@ ul {
   padding-bottom: 200px;
   align-items: center;
   text-align: center;
-  min-width: 1600px;
+  /* min-width: 1600px; */
   margin: 0 auto;
   background-color: rgba(47, 48, 58, 1);
 }
