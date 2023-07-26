@@ -346,6 +346,11 @@ ul {
   fill: #ffffff;
 }
 
+.caption-staff-link:hover .caption-staff-icon,
+.caption-staff-link:focus .caption-staff-icon {
+  background-color: var(--logo-accent-color);
+  fill: var(--white-color);
+}
 /* clients */
 .list-clients {
   display: flex;
