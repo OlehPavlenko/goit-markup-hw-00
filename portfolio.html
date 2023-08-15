@@ -22,28 +22,28 @@
         <a href="" class="logo"><span class="logo-accent">Web</span>Studio</a>
         <nav>
           <ul class="site-nav list">
-            <li class="item">
+            <li class="site-nav__item">
               <a href="./index.html" class="nav-link">Студія</a>
             </li>
-            <li class="item">
+            <li class="site-nav__item">
               <a href="./portfolio.html" class="nav-link active-page current"
                 >Портфоліо</a
               >
             </li>
-            <li class="item">
+            <li class="site-nav__item">
               <a href="" class="nav-link">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="contact-list list">
-          <li class="item">
+          <li class="contact-list__item">
             <a href="" class="contacts"
               ><svg class="header-addres-icon" width="16" height="16">
                 <use href="./images/icons.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="item">
+          <li class="contact-list__item">
             <a href="" class="contacts"
               ><svg class="header-addres-icon" width="16" height="10">
                 <use href="./images/icons.svg#icon-smartphone"></use></svg
@@ -58,24 +58,34 @@
         <div class="container">
           <h1 class="visually-hidden">Портфоліо</h1>
           <ul class="list-button list">
-            <li class="btn-position">
-              <button type="button" class="btn-navigation">Усі</button>
+            <li class="list-button__position">
+              <button type="button" class="list-button__position--navigation">
+                Усі
+              </button>
             </li>
-            <li class="btn-position">
-              <button type="button" class="btn-navigation">Веб-сайти</button>
+            <li class="list-button__position">
+              <button type="button" class="list-button__position--navigation">
+                Веб-сайти
+              </button>
             </li>
-            <li class="btn-position">
-              <button type="button" class="btn-navigation">Додатки</button>
+            <li class="list-button__position">
+              <button type="button" class="list-button__position--navigation">
+                Додатки
+              </button>
             </li>
-            <li class="btn-position">
-              <button type="button" class="btn-navigation">Дизайн</button>
+            <li class="list-button__position">
+              <button type="button" class="list-button__position--navigation">
+                Дизайн
+              </button>
             </li>
-            <li class="btn-position">
-              <button type="button" class="btn-navigation">Маркетинг</button>
+            <li class="list-button__position">
+              <button type="button" class="list-button__position--navigation">
+                Маркетинг
+              </button>
             </li>
           </ul>
-          <ul class="portfolio-element list">
-            <li class="element">
+          <ul class="portfolio list">
+            <li class="portfolio-element">
               <a href="" class="portfolio-link"
                 ><div class="project-description-translate">
                   <img
@@ -96,7 +106,7 @@
                 <p class="item-project-text">Веб-сайт</p>
               </div>
             </li>
-            <li class="element">
+            <li class="portfolio-element">
               <a href="" class="portfolio-link">
                 <div class="project-description-translate">
                   <img
@@ -117,7 +127,7 @@
                 <p class="item-project-text">Дизайн</p>
               </div>
             </li>
-            <li class="element">
+            <li class="portfolio-element">
               <a href="" class="portfolio-link">
                 <div class="project-description-translate">
                   <img
@@ -138,7 +148,7 @@
                 <p class="item-project-text">Додаток</p>
               </div>
             </li>
-            <li class="element">
+            <li class="portfolio-element">
               <a href="" class="portfolio-link">
                 <div class="project-description-translate">
                   <img
@@ -159,7 +169,7 @@
                 <p class="item-project-text">Маркетинг</p>
               </div>
             </li>
-            <li class="element">
+            <li class="portfolio-element">
               <a href="" class="portfolio-link">
                 <div class="project-description-translate">
                   <img
@@ -180,7 +190,7 @@
                 <p class="item-project-text">Додаток</p>
               </div>
             </li>
-            <li class="element">
+            <li class="portfolio-element">
               <a href="" class="portfolio-link">
                 <div class="project-description-translate">
                   <img
@@ -201,7 +211,7 @@
                 <p class="item-project-text">Веб-сайт</p>
               </div>
             </li>
-            <li class="element">
+            <li class="portfolio-element">
               <a href="" class="portfolio-link">
                 <div class="project-description-translate">
                   <img
@@ -222,7 +232,7 @@
                 <p class="item-project-text">Дизайн</p>
               </div>
             </li>
-            <li class="element">
+            <li class="portfolio-element">
               <a href="" class="portfolio-link">
                 <div class="project-description-translate">
                   <img
@@ -243,7 +253,7 @@
                 <p class="item-project-text">Маркетинг</p>
               </div>
             </li>
-            <li class="element">
+            <li class="portfolio-element">
               <a href="" class="portfolio-link">
                 <div class="project-description-translate">
                   <img
@@ -272,47 +282,49 @@
       <div class="container footer-container">
         <div>
           <a href="" class="logo-footer"
-            >Web<span class="logo-accent-footer">Studio</span></a
+            >Web<span class="logo-footer__accent">Studio</span></a
           >
           <address class="footer-addres">
             м. Київ, пр-т Лесі Українки, 26
           </address>
-          <ul class="list">
-            <li class="item-footer">
-              <a href="" class="footer-addres-contact">info@devstudio.com</a>
+          <ul class="footer-contact list">
+            <li class="footer-contact__item">
+              <a href="" class="footer-contact__item--tel"
+                >info@devstudio.com</a
+              >
             </li>
             <li class="item-footer">
-              <a href="" class="footer-addres-contact">+38 096 111 11 11</a>
+              <a href="" class="footer-contact__item--tel">+38 096 111 11 11</a>
             </li>
           </ul>
         </div>
         <div class="footer-join">
           <p class="join-text">Приєднуйтесь</p>
-          <ul class="footer-list-join">
-            <li class="join-item">
-              <a href="" class="item-link">
-                <svg class="footer-icon" width="20" height="20">
+          <ul class="footer-join__list">
+            <li class="footer-join__item">
+              <a href="" class="footer-join__link">
+                <svg class="footer-join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a href="" class="item-link">
-                <svg class="footer-icon" width="20" height="20">
+            <li class="footer-join__item">
+              <a href="" class="footer-join__link">
+                <svg class="footer-join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a href="" class="item-link">
-                <svg class="footer-icon" width="20" height="20">
+            <li class="footer-join__item">
+              <a href="" class="footer-join__link">
+                <svg class="footer-join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a href="" class="item-link">
-                <svg class="footer-icon" width="20" height="20">
+            <li class="footer-join__item">
+              <a href="" class="footer-join__link">
+                <svg class="footer-join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
